@@ -46,3 +46,21 @@ a {
 ul {
   list-style-type: none;
 }
+
+/* changes to css */
+.header{
+  display: flex;
+  padding: 0px 10px;
+  justify-content: space-between;
+}
+
+.left-links, .right-links{
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.links{
+  display: flex;
+  gap: 20px;
+}
